@@ -1,0 +1,462 @@
+body{
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    overflow-x: hidden;
+    background-color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    width: 100%;
+    max-width: 100%;
+}
+.logo{
+    height: 55px;
+    width: 65px;
+}
+
+.nav-links{
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li{
+    margin-left: 70px;
+    padding-top: 10px;
+}
+
+.nav-links:last-child{
+    margin-right: 80px;
+}
+.logo-and-text{
+    align-items: center;
+    display: flex;
+    margin-left: 50px;
+}
+.brand-name{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight:900;
+}
+.nav-links a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-btn{
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 6px 10px;
+    margin-top: -10px;
+    font-family: "JetBrains Mono", monospace;
+    background-color:white;
+    cursor: pointer;
+}
+
+.texts p{
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 12px;
+  margin-left: 5px;
+  font-size: 20px;
+}
+.opening-page h1{
+    font-size:52px;
+}
+
+.image-part img{
+    margin-top: 32px;
+    margin-left: 140px;
+    height: 575px;
+    width: 780px;
+}
+
+.opening-page{
+    display: flex;
+}
+
+.texts{
+    margin-top: 120px;
+    margin-left: 70px;
+}
+
+.consultation-btn{
+    margin-left: 5px;
+    margin-top: 24px;
+}
+
+.consultation-btn button{
+    background-color: black;
+    color:white;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 5px;
+    padding: 12px 30px;
+    font-family: "JetBrains Mono", monospace;
+}
+
+.nav-links a{
+    color: black;
+}
+
+.brand-logo{
+    display: flex;
+}
+.brands{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.brand-logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.brand-logo img{
+    height: 30px;
+}
+
+.brand-logo li{
+    list-style-type: none;
+}
+.container-2{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.Services{
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-size: larger;
+    margin-right: 40px;
+    background-color: #8cec44;
+    padding: 2px 8px;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+.body-of-services{
+    font-family: "Poppins", sans-serif;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+
+.mini-card-1{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+.mini-card-1p1 img{
+    height: 40px;
+    margin-right: 14px;
+    background-color: #8cec44;
+    border-radius: 50%;
+}
+.card-1p1{
+    margin-left: 56px;
+    margin-top: 54px;
+    margin-bottom: 36px;
+    margin-right: 40px;
+}
+
+
+.card-1{
+    display: flex;
+    margin-left: 70px;
+    border: 2px solid black;
+    margin-bottom: 40px;
+    border-radius: 40px;
+    font-family: "Poppins", sans-serif;
+    width: 43vw;
+    height: 44vh;
+}
+
+.card-1p2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 44px;
+}
+.card-1p1 h1{
+    background-color: #8cec44;
+    padding: 3px 8px;
+    border-radius: 5px;  
+    font-size:30px; 
+}
+
+.mini-card-1p2{
+    margin-bottom: 4px;
+}
+.a2-cardsp1{
+    display: flex;
+}
+
+
+
+
+.mini-card-2{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+.mini-card-2p1 img{
+    height: 40px;
+    margin-right: 14px;
+    border-radius: 50%;
+    background-color: white;
+}
+.card-2p1{
+    margin-left: 56px;
+    margin-top: 54px;
+    margin-bottom: 36px;
+    margin-right: 40px;
+}
+
+
+.card-2{
+    display: flex;
+    margin-left: 70px;
+    border: 2px solid black;
+    margin-bottom: 40px;
+    border-radius: 40px;
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+    width: 43vw;
+    height: 44vh;
+}
+
+.card-2p2{
+    margin-top: 52px;
+    margin-bottom: 20px;
+    margin-left:52px;
+}
+.card-2p1 h1{
+    background-color: white;
+    padding: 3px 8px;
+    border-radius: 5px; 
+    color: black;  
+    font-size:30px ;
+}
+
+.mini-card-2p2{
+    margin-bottom: 4px;
+    color: white;
+    font-weight: lighter;
+}
+
+
+
+
+.mini-card-3{
+    display: flex;
+    align-items: center;
+    margin-top: 110px;
+}
+.mini-card-3p1 img{
+    height: 40px;
+    margin-right: 14px;
+    border-radius: 50%;
+    background-color: white;
+}
+.card-3p1{
+    margin-left: 56px;
+    margin-top: 54px;
+    margin-bottom: 36px;
+    margin-right: 40px;
+}
+
+
+.card-3{
+    display: flex;
+    margin-left: 70px;
+    border: 2px solid black;
+    margin-bottom: 40px;
+    border-radius: 40px;
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+    width: 43vw;
+    height: 44vh;
+}
+
+.card-3p2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left:52px;
+}
+.card-3p1 h1{
+    background-color: white;
+    padding: 3px 8px;
+    border-radius: 5px; 
+    color: black;  
+    font-size:27px ;
+}
+
+.mini-card-3p2{
+    margin-bottom: 4px;
+    color: white;
+    font-weight: lighter;
+}
+
+
+
+.mini-card-4{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+.mini-card-4p1 img{
+    height: 40px;
+    margin-right: 14px;
+    background-color: #8cec44;
+    border-radius: 50%;
+}
+.card-4p1{
+    margin-left: 56px;
+    margin-top: 54px;
+    margin-bottom: 36px;
+    margin-right: 40px;
+}
+
+
+.card-4{
+    display: flex;
+    margin-left: 70px;
+    border: 2px solid black;
+    margin-bottom: 40px;
+    border-radius: 40px;
+    font-family: "Poppins", sans-serif;
+    width: 43vw;
+    height: 44vh;
+}
+
+.card-4p2{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    margin-left: 44px;
+}
+.card-4p1 h1{
+    background-color: #8cec44;
+    padding: 3px 8px;
+    border-radius: 5px;  
+    font-size:30px; 
+}
+
+.mini-card-4p2{
+    margin-bottom: 4px;
+}
+.a2-cardsp2{
+    display: flex;
+    margin-bottom:60px;
+}
+.another-container1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid black;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 30px;
+    height: 300px;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 2px;
+    background-color: 	#E5E4E2;
+}
+.texts-1{
+    margin-left: -60px;
+    margin-top: 50px;
+    margin-bottom: 36px;
+}
+.texts-1 h2{
+    font-size: xx-large;
+    margin-top: -15px;
+}
+.texts-1 p{
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.texts-1 button{
+    background-color: black;
+    color:white;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 5px;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.container-n{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+.CaseStudy{
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-size: larger;
+    margin-right: 40px;
+    background-color: #8cec44;
+    padding: 2px 8px;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+.body-of-case-study{
+    font-family: "Poppins", sans-serif;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.last-div{
+    margin-left: 70px;
+    border: 2px solid black;
+    margin-right: 70px;
+    padding: 56px 56px;
+    font-family: "Poppins", sans-serif;
+    background-color: #36454F;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .line {
+    min-height: 150px;
+    padding: 0 0.25px;
+    background-color: white;
+  }
+
+  .flex-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .line1 {
+    min-height: 150px;
+    padding: 0 0.25px;
+    background-color: white;
+  }
